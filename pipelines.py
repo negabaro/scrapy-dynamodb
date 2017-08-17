@@ -8,4 +8,9 @@
 
 class NetflixcrawlerPipeline(object):
     def process_item(self, item, spider):
+        print("pipeline!!!!!!!!!!!!!!")
+        print("pipeline!!!!!!!!!!!!!!")
+        #print(item)
+        print("pipeline!!!!!!!!!!!!!!")
+        print("pipeline!!!!!!!!!!!!!!")
         return item
